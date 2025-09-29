@@ -1,11 +1,13 @@
-# main.py
+import amanah
+import pprint
 
-import amanah # শুধু 'amanah' ব্যবহার করুন
+# amanah মডিউলের ভেতরে থাকা সমস্ত নাম প্রিন্ট করুন
+print("Available attributes in 'amanah' module:")
+pprint.pprint(dir(amanah))
 
-# এখন আপনি 'amanah' মডিউলের ভেতরের ফাংশন বা ক্লাসগুলো ব্যবহার করতে পারবেন।
+# সঠিক নামটি খুঁজে বের করুন এবং এটি দিয়ে ফাংশন কল করুন
+# যেমন, যদি আউটপুটে 'run_task' নামটি পান, তাহলে কল করুন:
+# amanah.run_task()
 
-# ধরে নিন amanah মডিউলে start_process() নামে একটি ফাংশন আছে:
-amanah.start_process()
-
-print("amanah মডিউলটি সফলভাবে ইমপোর্ট এবং ব্যবহার করা হয়েছে।")
-
+# এরর দেওয়া লাইনটি কমেন্ট করে রাখুন বা মুছে দিন
+# amanah.start_process()
